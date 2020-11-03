@@ -1,6 +1,7 @@
 #!/bin/bash
 # Author: Jamie Scott
 # Created: May 2015
+# Updated: November 2020
 #
 # DESCRIPTION:
 # A BASH script to pull the Clestial Blessing status from ExtremeTK.
@@ -8,8 +9,7 @@
 # Cron this script to run every 5 minutes.
 # */5 * * * * /home/etkaddict/public_html/scripts/celestial-blessing.bash > /dev/null 2>&1
 
-HOME_DIR=$(grep HOME_DIR ../.env | cut -d '"' -f2)
-outputFile="$HOME_DIR/writable/etk_blessing"
+outputFile='/home/etkaddict/public_html/writable/etk_blessing'
 
 scrape=$(curl "https://www.therealmofchaos.com/" | grep -A 10 -e "Celestial Blessing:" | tail -n 1)
 
