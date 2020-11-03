@@ -38,7 +38,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <span id="navbar-logo"><a href="/"><img src="<?=  base_url() ?>assets/img/logo.png" alt="ETK Addict Logo" width="50" height="50" />ETK Addict</a></span>
+            <span id="navbar-logo"><a href="/"><img src="assets/img/logo.png" alt="ETK Addict Logo" width="50" height="50" />ETK Addict</a></span>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">

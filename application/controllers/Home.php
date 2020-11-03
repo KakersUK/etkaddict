@@ -118,15 +118,19 @@ class Home extends CI_Controller
                 return 'Carnage Legends (99+)';
             break;
 
-            case 'Guri Carnage (Balanced 100k/50k)':
-                return 'Carnage (Balanced 100k/50k)';
+            case 'Guri Carnage (Celestials 400k/200k)':
+                return 'Carnage Celestials (400k/200k)';
+            break;    
+
+            case 'Guri Balanced Carnage (100k/50k)':
+                return 'Carnage Balanced (100k/50k)';
             break;        
         
             case 'Guri Carnage (Balanced 50k/25k)':
                 return 'Carnage (Balanced 50k/25k)';
             break;				
 
-            case 'Guri Deathball':
+            case 'Guri Deathball (Open - 1-99)':
                 return 'Deathball';
             break;
 

@@ -31,7 +31,7 @@ class Home_model extends CI_Model
     public function getTopWarriors()
     {
         $this->db->select('charname');
-        $this->db->where("path='Warrior' OR path='Crusader' OR path='Paladin' OR path='Berserker'");
+        $this->db->where("path='Warrior' OR path='Crusader' OR path='Champion' OR path='Reaver' OR path='Berserker' OR path='Barbarian' OR path='Knight' OR path='Paladin' OR path='Justicar'");
         $this->db->order_by('rank', 'asc');
         $this->db->limit(10);
         $q = $this->db->get('characters');
@@ -41,7 +41,7 @@ class Home_model extends CI_Model
     public function getTopRogues()
     {
         $this->db->select('charname');
-        $this->db->where("path='Rogue' OR path='Archer' OR path='Spellblade'");
+        $this->db->where("path='Rogue' OR path='Archer' OR path='Sharpshooter' OR path='Vagabond' OR path='Spellblade' OR path='Assassin'");
         $this->db->order_by('rank', 'asc');
         $this->db->limit(10);
         $q = $this->db->get('characters');
@@ -51,7 +51,7 @@ class Home_model extends CI_Model
     public function getTopMages()
     {
         $this->db->select('charname');
-        $this->db->where("path='Mage' OR path='Summoner' OR path='Shaman' OR path='Battlemage'");
+        $this->db->where("path='Mage' OR path='Summoner' OR path='Shaman' OR path='Elementalist' OR path='Tempest' OR path='Battlemage' OR path='Hexblade' OR path='Neophyte' OR path='Shaman' OR path='Spiritualist'");
         $this->db->order_by('rank', 'asc');
         $this->db->limit(10);
         $q = $this->db->get('characters');
@@ -61,7 +61,7 @@ class Home_model extends CI_Model
     public function getTopPoets()
     {
         $this->db->select('charname');
-        $this->db->where("path='Poet' OR path='Cleric' OR path='Bard'");
+        $this->db->where("path='Poet' OR path='Cleric' OR path='Savior' OR path='Druid' OR path='Bard' OR path='Minstrel'");
         $this->db->order_by('rank', 'asc');
         $this->db->limit(10);
         $q = $this->db->get('characters');

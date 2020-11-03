@@ -1,6 +1,5 @@
 {
     "require": {
-        "vlucas/phpdotenv": "^2.4",
-        "sentry/sentry": "^1.9"
+        "vlucas/phpdotenv": "^2.4"
     }
 }
