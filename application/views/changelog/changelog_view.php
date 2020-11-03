@@ -28,6 +28,16 @@
             <div class="col-md-10 col-md-offset-1">
 
                 <div class="panel panel-info">
+                    <div class="panel-heading">2020/11/03 - v1.3.11</div>
+                    <div class="panel-body">
+                        <ul>
+                            <li>IMPROVED: Restructure of files and minor edits for public release.</li>
+                            <li>FIX: Path lists on the homepage finally fixed after 4 years.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="panel panel-info">
                     <div class="panel-heading">2018/05/20 - v1.3.10</div>
                     <div class="panel-body">
                         <ul>

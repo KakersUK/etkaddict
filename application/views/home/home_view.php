@@ -6,7 +6,7 @@
             <div class="page-header center-text">
                 <h1>Welcome to ETK Addict</h1>
                 <p>Fueling the addicts of ExtremeTK!</p>
-                <p>Release: <a href="/changelog/">v1.3.10 (May 2018)</a></p>
+                <p>Release: <a href="/changelog/">v1.3.11 (November 2020)</a></p>
             </div>
         </div>
     </div>  
